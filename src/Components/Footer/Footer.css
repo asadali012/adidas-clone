@@ -1,0 +1,169 @@
+li a{
+    text-decoration: none;
+} 
+
+#product_list {
+    display: flex;
+    padding: 10px;
+    width: 98%;
+    justify-content: center;
+}
+
+#product_list>div {
+    margin-top: 20px;
+    width: 15%;
+}
+
+#product_list>div>h5 {
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+
+}
+
+#small_screenProductList>div>ul,
+#product_list>div>ul {
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+#small_screenProductList>div>ul>li,
+#product_list>div>ul>li {
+    padding: 6px;
+    padding-left: 0px;
+    font-size: 12px;
+    font-family: AdineuePRO, Helvetica, Arial, sans-serif;
+}
+
+#small_screenProductList>div>ul>li:hover,
+#product_list>div>ul>li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#small_screenProductList {
+    background-color: black;
+    display: none;
+    justify-content: space-around;
+    color: white;
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+}
+/* 
+@media only screen and (min-width:0px)and (max-width:960px) {
+    #login_cart_bar {
+        display: flex;
+    }
+
+    #product_list {
+        display: none;
+    }
+
+    #small_screenProductList {
+        display: flex;
+    }
+
+
+} */
+
+
+
+@media only screen and (min-width:0px)and (max-width:960px) {
+
+    .content_container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 30px;
+
+
+    }
+
+    .content_container>div {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+.lastfoot {
+    background-color: #363738;
+    height: 120px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.lastfoot_s {
+    background-color: #363738;
+    height: 120px;
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pakilogo {
+    height: 8px;
+    width: 18px;
+    margin-left: 20%;
+    margin-top: 28px;
+}
+.pakilogo_s {
+    height: 8px;
+    width: 18px;
+    margin-left: 40%;
+    margin-top: 28px;
+}
+.logo_foot{
+    padding-bottom: 10px;
+}
+
+
+.copyright {
+    margin-top: 3%;
+}
+
+.copyright>a {
+    margin-left: 20%;
+    color: #ffffff;
+    text-decoration: none;
+}
+.copyright_s>a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.tnc {
+    display: flex;
+    margin-top: -6%;
+    margin-left: 65%;
+    margin-right: 15%;
+}
+.tnc>p {
+    padding-bottom: 10px;
+}
+.tnc>p>a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.tnc_s {
+    margin-top: -6%;
+    margin-left: 65%;
+    margin-right: 15%;
+}
+.tnc_sm {
+    padding-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.tnc_sm>p {
+    padding-top: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.tnc_sm>p>a {
+    padding-top: 102px;
+    color: #ffffff;
+    text-decoration: none;
+}

@@ -1,0 +1,135 @@
+
+     /* poster css start */
+
+
+     #poster {
+        width: 100%;
+
+        height: 100vh;
+        min-height: 30vh;
+        background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/ss22-ivp-5-launch-hp-v3-d_tcm209-819981.jpg");
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+    #popular_img{
+        height: 100vh;
+        align-items: flex-end;
+        margin-left: 0px;
+        width: 100%;
+        min-width: 100%;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/holiday-fw21-ss22-ch3-digital-hp-masthead-large-festive-collection-dual-d_tcm209-824921.jpg"); 
+   }
+   .poster_container {
+        width: auto;
+        margin-left: 40px;
+
+    }
+
+    .poster_container>h2 {
+        color: white;
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+
+    #popular_img, .poster_container>button {
+        padding: 15px 25px;
+        background-color: white;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+
+
+    }
+
+    .poster_container>i {
+        font-size: 20px;
+        color: black;
+        margin-left: 10px;
+    }
+
+    .poster_container>h1 {
+        margin-top: 70px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+ 
+    .yellow-contain-btn{
+        margin-top:20px;
+        border: 3px solid red;
+        position: relative;
+        height: 40px;
+    }
+
+    /* poster css end */
+
+    /* poster media queries start  */
+    @media only screen and (min-width:600px)and (max-width:960px) {
+         #popular_img{
+             height:60vh;
+             background-image:url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/holiday-fw21-ss22-ch3-digital-hp-masthead-large-festive-collection-dual-m_tcm209-824922.jpg");
+         }
+
+        #poster {
+            align-items: flex-end;
+            height: 60vh;
+            background-size: cover;
+            width: 100%;
+        }
+
+        .poster_container {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media only screen and (min-width:0px)and (max-width:599px) {
+#popular_img{
+             height:40vh;
+             background-image:url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/holiday-fw21-ss22-ch3-digital-hp-masthead-large-festive-collection-dual-m_tcm209-824922.jpg");
+         }
+
+        #poster {
+            align-items: flex-end;
+
+            width: 100%;
+            min-width: 100%;
+            background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/ss22-ivp-5-launch-hp-v3-m_tcm209-819980.jpg");
+        }
+
+        .poster_container {
+            margin-bottom: 20px;
+        }
+    }
+    .yellow_container_btn1{
+        padding: 10px; 
+        background-color:white; 
+        color:black;
+        position: absolute;
+        top: -8px;
+        right: 0;
+        left: -8px;
+        bottom: 0;
+    }
+    .yellow_container_btn1 a{
+        text-decoration: none;
+        color: black;
+        font-family: Helvetica;
+    }
+    .arrow{
+        margin-left:8px; 
+        color: black;
+    }
+    
+    .btn-back2{
+        margin: 0 15px; 
+        padding-top: 30px;
+        border: 1px solid white; 
+        width: 150px;
+    }
+
+    /* poster media queries end  */
